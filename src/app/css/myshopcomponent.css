@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 2px solid #eee;
+    background: black;
+    color: white;
+    text-shadow: 0 0 10px yellow;
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h3 {
+    padding-top: 24px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.movieItem {
+    width: 31%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    height: 400px;
+    background-size: auto 100%!important;
+    position: relative;
+}
+
+.movieName {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    opacity: .8;
+    padding: 10px 0;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.batman {
+    background: url('http://screencrush.com/442/files/2013/01/batman_arkham_asylum_movie.jpg') center center;
+}
+
+.civilwar {
+    background: url('http://images.huffingtonpost.com/2016-05-06-1462517504-9179513-civilwarpic.jpg')center center;
+}
+
+.interstellar {
+    background: url('https://resizing.flixster.com/NF5iYPJi334dv-LDZiFt2cEwOJ4=/206x305/v1.bTsxMTE5MDg2MDtqOzE3Mjc0OzEyMDA7ODAwOzEyMDA')center center;
+    ;
+}
+
+.deadpool {
+    background: url('https://upload.wikimedia.org/wikipedia/en/4/46/Deadpool_poster.jpg');
+}
